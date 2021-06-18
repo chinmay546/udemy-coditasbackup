@@ -1,0 +1,51 @@
+<!-- one hi tag and 5 p tags 
+serve the folder with live server  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 6</title>
+</head>
+<body>
+    <h1>Part 6  Challenge</h1>
+    <h1>Todos</h1>
+    <h2 style="color: green;" > 
+        Green Color indicated todo which are completed .
+    </h2>
+    <h2 style="color: red;" > 
+        Red Color indicated todo which are yet to be completed .
+    </h2>
+   <h2>
+       Search for Todo
+   </h2>
+    <input id="searchTodo" type="text" placeholder="Todo to be searched!" >
+    <label>
+      Hide  Completed Todo :
+        <input type="checkbox" id="completedTodo">
+    </label> <br>
+    <br>
+    <div id="todos"  >
+
+    </div>
+    <div id="count">
+
+    </div>
+
+    <form id="todoForm">
+        <input type="text" placeholder="Add Todo" name="newTodo" >
+        <button>
+          Submit
+        </button>
+      </form>
+      
+</body>
+<script src="./todos.js" >
+
+</script>
+</html>
+
+<!-- 
+create a checkbox and setup event listener 
+when checkbox is checked , only completed todos will be displayed  -->
